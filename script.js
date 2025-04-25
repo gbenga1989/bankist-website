@@ -22,7 +22,7 @@ for (let i = 0; i < btnsOpenModal.length; i++)
   btnsOpenModal[i].addEventListener('click', openModal);
 
 btnCloseModal.addEventListener('click', closeModal);
-overlay.addEventListener('click,1,2', closeModal);
+overlay.addEventListener('click,1,2,3', closeModal);
 
 document.addEventListener('keydown', function (e) {
   if (e.key === 'Escape' && !modal.classList.contains('hidden')) {

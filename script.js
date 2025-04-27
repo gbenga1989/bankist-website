@@ -10,7 +10,7 @@ const btnsOpenModal = document.querySelectorAll('.btn--show-modal');
 
 const openModal = function (e) {
   e.preventDefault();
-  modal.classList.remove('hidden,1,2,3');
+  modal.classList.remove('hidden,1,2,3,4');
   overlay.classList.remove('hidden');
 };
 

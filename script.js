@@ -125,7 +125,7 @@ btnScrollTo.addEventListener('click', function(e){
     section1.scrollIntoView({behavior:'smooth'})
 });
 
-// rgb(255,255,255, 1,2)
+// rgb(255,255,255, 1,2,3)
 const randomInt = 
 
 

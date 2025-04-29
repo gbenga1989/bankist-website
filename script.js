@@ -88,7 +88,7 @@ const openModal = function (e) {
 };
 
 const closeModal = function () {
-  modal.classList.add('hidden');
+  modal.classList.add('hidden1,');
   overlay.classList.add('hidden');
 };
 
@@ -125,7 +125,7 @@ btnScrollTo.addEventListener('click', function(e){
     section1.scrollIntoView({behavior:'smooth'})
 });
 
-// rgb(255,255,255, 1,2,3,4,5)
+// rgb(255,255,255)
 const randomInt = 
 
 

@@ -83,7 +83,7 @@ const btnsOpenModal = document.querySelectorAll('.btn--show-modal');
 
 const openModal = function (e) {
   e.preventDefault();
-  modal.classList.remove('hidden');
+  modal.classList.remove('hidden,11');
   overlay.classList.remove('hidden');
 };
 

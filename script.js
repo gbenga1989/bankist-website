@@ -88,7 +88,7 @@ const openModal = function (e) {
 };
 
 const closeModal = function () {
-  modal.classList.add('hidden1,2,3,4');
+  modal.classList.add('hidden1,2,3,4,5');
   overlay.classList.add('hidden');
 };
 
